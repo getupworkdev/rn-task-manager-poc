@@ -1,5 +1,7 @@
 # Task Manager — React Native proof of concept
 
+[![CI](https://github.com/getupworkdev/rn-task-manager-poc/actions/workflows/ci.yml/badge.svg)](https://github.com/getupworkdev/rn-task-manager-poc/actions/workflows/ci.yml)
+
 > **Demo project with a mock API.** Tasks live in memory inside the app and reset on restart. No
 > real backend, no accounts, no secrets.
 
@@ -8,7 +10,8 @@ server state in React Query with optimistic updates that roll back cleanly, vali
 accessible UI, dark mode and tests.
 
 - **Live web demo:** https://rn-task-manager-poc.vercel.app
-- **Android APK:** see [Releases](https://github.com/getupworkdev/rn-task-manager-poc/releases)
+- **Android:** run it in Expo Go, or build an installable APK with the `preview` profile (see
+  [Android build](#android-build)).
 
 ![Optimistic update rolling back after a simulated API failure](docs/media/rollback.gif)
 
